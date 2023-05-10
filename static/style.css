@@ -1,0 +1,173 @@
+.body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+
+.upper_header {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  background-color: red;
+  border: 0.25vw solid black;
+  padding: 0.75vw 1vw;
+  max-width: 100%;
+  margin-bottom: 0.25vw;
+}
+
+.brand {
+  font-family: Usuzi, sans-serif;
+  float: left;
+  text-align: left;
+  font-size: 4.5vw;
+  font-weight: bold;
+  padding-top: 0.25vw;
+  padding-right: 1vw;
+}
+
+.upper_title {
+  float: left;
+  text-align: left;
+  font-size: 4vw;
+  font-weight: bold;
+  padding-top: 0.25vw;
+}
+
+.time {
+  text-align: right;
+  display: inline-block;
+  font-size: 2.5vw;
+  padding: 1vw;
+  padding-right: 0vw
+}
+
+.lower_header {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  background-color: red;
+  border: 0.25vw solid black;
+  padding: 0.5vw;
+  max-width: 100%;
+  margin-bottom: 0.25vw;
+}
+
+.lower_title {
+  float: left;
+  text-align: left;
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 0.55vw;
+  padding-left: 0vw;
+  margin-left: 0.65vw;
+  margin-right: 1vw
+}
+
+.booking {
+  display: inline-block;
+  font-size: 1.75vw;
+  color: black;
+  background-color: yellow;
+  border: 0.125vw solid black;
+  padding: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+.walk-in {
+  display: inline-block;
+  font-size: 1.75vw;
+  color: black;
+  background-color: lightblue;
+  border: 0.125vw solid black;
+  padding: 0.5vw;
+}
+
+.update_button {
+  float: right;
+  text-align: center;
+  background-color: white;
+  border: 0.125vw solid black;
+  font-size: 1.75vw;
+  font-weight: bold;
+  color: red;
+  margin: 0.25vw;
+  margin-right: 0.65vw;
+  padding: 0.25vw 0.75vw;
+  text-decoration: none;
+  display: inline-block;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.update_button:hover {
+  opacity: 1;
+  background-color: white;
+  border: 0.125vw solid black;
+}
+
+.update_button:active {
+  opacity: 0.6;
+  background-color: white;
+  border: 0.125vw solid black;
+}
+
+.content {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  background-color: lightgrey;
+  border: 0.25vw solid black;
+  padding: 0.5vw 1vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.column {
+  text-align: center;
+  border: 0.25vw solid black;
+  background-color: white;
+  padding: 0.5vw;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right:0.25vw;
+  position: relative;
+}
+
+.column h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  color: black;
+  margin: 1vw;
+}
+
+.booking_plate {
+  border: 0.125vw solid black;
+  background-color: yellow;
+  font-size: 3vw;
+  font-weight:normal;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  position: relative;
+  padding: 0.5vw 1.5vw;
+  margin: 0.15vw;
+}
+
+.walk-in_plate {
+  border: 0.125vw solid black;
+  background-color: lightblue;
+  font-size: 3vw;
+  font-weight:normal;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  position: relative;
+  padding: 0.5vw 1.5vw;
+  margin: 0.15vw;
+}
